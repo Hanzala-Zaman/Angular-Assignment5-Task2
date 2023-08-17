@@ -1,0 +1,33 @@
+.container
+{
+    height: 300vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+form
+{
+    width: 700px;
+    margin-top: -960px;
+}
+.row
+{
+    
+    padding: 5px 2px;
+    font-size: medium;
+     margin-bottom: 3px;
+}
+.row-head
+{
+    text-align: center;
+}
+.head
+{
+font-size: x-large;
+}
+.border
+{
+    padding: 15px;
+    border-radius: 3px;
+}

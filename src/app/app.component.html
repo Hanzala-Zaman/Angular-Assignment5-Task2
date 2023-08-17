@@ -1,0 +1,74 @@
+<div class="container">
+
+<form [formGroup]="registerForm" class="border" (ngSubmit)="saveinfo()">
+  <div >
+          <div class="row-head bg-light g-0">
+                <span class="head">Product</span>
+           </div>
+  </div>
+  
+  <div class="row">
+      <div class="col mb-3">
+      <label for="title" class="form=label">Title</label>
+      <input 
+      type="text"
+       class="form-control" 
+       id="title" 
+       placeholder="Title"
+       formControlName="title">
+  <div class="form-text"></div>
+  </div>
+  <div class="col mb-3">
+      <label for="description" class="form=label">Rating</label>
+      <input 
+      type="text" 
+      class="form-control" 
+      id="rating" 
+      placeholder="Rating"
+      formControlName="rate">
+      <div class="form-text"></div>
+  </div>
+  </div>
+  <div class="row">
+      <div class="col mb-3">
+      <label for="category" class="form=label">Category</label>
+      <input type="text" 
+      class="form-control" 
+      id="email" 
+      placeholder="Category"
+      formControlName="cat">
+      <div class="form-text"></div>
+      </div>
+
+      <div class="col mb-3">
+      <label for="stock" class="form=label">Stock</label>
+      <input type="text" 
+      class="form-control" 
+      id="stock" 
+      placeholder="Category"
+      formControlName="stock">
+      <div class="form-text"></div>
+      </div>
+  </div>
+  <div class="row">
+      <div class="col mb-3">
+      <label for="description" class="form=label">Description</label>
+      <input
+      type="text"
+      class="form-control" 
+      id="description" 
+      placeholder="Description"
+      formControlName="descp">
+  <div class="form-text"></div>
+  </div>
+  </div>
+  
+  <div class="row mb-3">
+  <div class="col-6 offset-3">
+  <div class="d-grid">
+  <button type="submit" class="btn btn-primary">Submit</button>
+  </div>
+  </div>
+  </div>
+  </form>
+</div>
